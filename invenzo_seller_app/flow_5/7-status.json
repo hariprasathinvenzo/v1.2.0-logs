@@ -1,0 +1,20 @@
+{
+	"context": {
+		"domain": "ONDC:RET14",
+		"country": "IND",
+		"city": "std:08288",
+		"action": "status",
+		"core_version": "1.2.0",
+		"bap_id": "buyer-app-preprod-v2.ondc.org",
+		"bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+		"bpp_uri": "https://resources-hub-preprod.sangeethamobiles.com",
+		"transaction_id": "de8757aa-49a0-4002-9143-af155766e927",
+		"message_id": "4e16220d-3240-4c5a-b666-5b7056b8c89f",
+		"timestamp": "2024-02-22T12:31:34.443Z",
+		"bpp_id": "resources-hub-preprod.sangeethamobiles.com",
+		"ttl": "PT30S"
+	},
+	"message": {
+		"order_id": "2024-02-22-960306"
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "context": {
+    "domain": "ONDC:RET14",
+    "action": "search",
+    "country": "IND",
+    "city": "*",
+    "core_version": "1.2.0",
+    "bap_id": "buyer-app-preprod-v2.ondc.org",
+    "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+    "transaction_id": "ded263af-e13d-4cfa-b62a-1a63327f4384",
+    "message_id": "5e9c1541-0853-4b1f-b522-f91294716298",
+    "timestamp": "2024-02-22T02:19:51.907Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      },
+      "tags": [
+        {
+          "code": "catalog_inc",
+          "list": [
+            {
+              "code": "mode",
+              "value": "start"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
